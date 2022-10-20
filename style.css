@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(Images/Img1.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(Images/Img2.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(Images/Img3.jpg);
+  min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  color: aliceblue;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+.textBg {
+  background: #bccef8;
+  color: white;
+  padding: 20px;
+}
+.textBg:hover {
+  background-color: #38e54d;
+  transition-duration: 500ms;
+}
