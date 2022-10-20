@@ -14,7 +14,7 @@ body {
 }
 .pimg2 {
   background-image: url(Images/Img2.jpg);
-  min-height: 400px;
+  min-height: 600px;
 }
 .pimg3 {
   background-image: url(Images/Img3.jpg);
@@ -28,12 +28,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .ptext {
   position: absolute;
   top: 50%;
-  color: aliceblue;
-  font-size: 30px;
+
+  font-size: 20px;
   letter-spacing: 5px;
   text-transform: uppercase;
   width: 100%;
@@ -44,7 +45,51 @@ body {
   color: white;
   padding: 20px;
 }
+
 .textBg:hover {
   background-color: #38e54d;
   transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.textBg1 {
+  background: #ffa1cf;
+  color: #f4f4f4;
+  padding: 20px;
+}
+.textBg1:hover {
+  background-color: #38e54d;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.textBg2 {
+  background: #c6ebc5;
+  color: #8b9a46;
+  padding: 20px;
+}
+.textBg2:hover {
+  background-color: #ede4e0;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.textBg3 {
+  color: white;
+  font-size: 40px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #ffd6ec;
+}
+.section-middle {
+  background-color: #a1c298;
+  color: white;
 }
